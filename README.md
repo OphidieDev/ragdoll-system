@@ -7,7 +7,7 @@
 <div align="center">
 	<h1>Ragdoll System</h1>
 	<p>A simple ragdoll system for R15 and R6 characters on roblox.</p>
-	<a href="https://leostormer.github.io/ragdoll-system/"><strong>View docs</strong></a>
+	<a href="https://leostormer.github.io/ragdoll-system/"><strong>View docs (Upstream)</strong></a>
 </div>
 <!--moonwave-hide-before-this-line-->
 
