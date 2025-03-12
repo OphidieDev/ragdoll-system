@@ -1,7 +1,13 @@
 <div align="center">
+	⚠️ This repository is forked from the <a href="https://github.com/LeoStormer/ragdoll-system"><body>original</body></a> in order to prevent ragdolls from being automatically applied when the character is loaded for more complex implementations ⚠️
+</div>
+
+---
+
+<div align="center">
 	<h1>Ragdoll System</h1>
 	<p>A simple ragdoll system for R15 and R6 characters on roblox.</p>
-	<a href="https://leostormer.github.io/ragdoll-system/"><strong>View docs</strong></a>
+	<a href="https://leostormer.github.io/ragdoll-system/"><strong>View Docs (Upstream)</strong></a>
 </div>
 <!--moonwave-hide-before-this-line-->
 
