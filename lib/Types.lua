@@ -15,7 +15,8 @@ export type RagdollInternals = {
 	_noCollisionConstraints: { NoCollisionConstraint },
 	_limbs: { BasePart },
 	_accessoryHandles: { BasePart },
-	_motor6Ds: { Motor6D },
+	_joints: { Motor6D | AnimationConstraint },
+	_insertNoCollisionConstraint: (self: RagdollInternals, limb0: BasePart, limb2: BasePart) -> (),
 }
 
 export type Ragdoll = {
@@ -48,7 +49,7 @@ export type SocketSetting = {
 }
 
 export type Blueprint = {
-	numLimbs: number,
+	numJoints: number,
 	socketSettings: { [string]: SocketSetting },
 	cframeOverrides: { [string]: { C0: CFrame, C1: CFrame } },
 	lowDetailModeJoints: { [string]: boolean }?,
