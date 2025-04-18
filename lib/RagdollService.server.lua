@@ -92,11 +92,11 @@ function onPlayerAdded(player: Player)
 	end)
 end
 
-for _, player in Players:GetPlayers() do
-	task.spawn(onPlayerAdded, player)
-end
+-- for _, player in Players:GetPlayers() do
+-- 	task.spawn(onPlayerAdded, player)
+-- end
 
-Players.PlayerAdded:Connect(onPlayerAdded)
+-- Players.PlayerAdded:Connect(onPlayerAdded)
 
 RagdollFactory._blueprintAdded:Connect(function(blueprint: Types.Blueprint)
 	for model, ragdoll: Types.Ragdoll in RagdollSystem._ragdolls do
